@@ -1,3 +1,4 @@
+// Copyright 2020 theatz
 #ifndef LAB01_STUDENT_HPP
 #define LAB01_STUDENT_HPP
 
@@ -69,4 +70,4 @@ class Student {
   std::string _out;
 };
 
-#endif
+#endif // LAB01_STUDENT_HPP

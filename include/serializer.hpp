@@ -1,7 +1,6 @@
 // Copyright 2020 theatz
-#ifndef LAB01_SERIALIZER_HPP
-#define LAB01_SERIALIZER_HPP
-
+#ifndef INCLUDE_SERIALIZER_HPP_
+#define INCLUDE_SERIALIZER_HPP_
 
 #include <nlohmann/json.hpp>
 #include <any>
@@ -46,4 +45,4 @@ struct adl_serializer<std::any> {
 };
 }
 
-#endif  // TEMPLATE_SERIALIZER_HPP
+#endif  // INCLUDE_SERIALIZER_HPP_

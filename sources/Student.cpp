@@ -36,7 +36,6 @@ Student::~Student() {
 }
 
 void Student::from_json(const json& j, StudentInfo& st) {
-
   get_name(j.at("name"), st);
   get_group(j.at("group"), st);
   get_avg(j.at("avg"), st);
@@ -177,7 +176,7 @@ void Student::printAvg(const StudentInfo& st) {
     _out += avg;
     uint32_t sp = _studentSize[2] - avg.length() + 1;
     for (uint32_t i = 0; i < sp; i++) _out += " ";
-  }
+  }Redundant
 }
 
 void Student::printDebt(const StudentInfo& st) {
