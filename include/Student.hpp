@@ -1,6 +1,6 @@
 // Copyright 2020 theatz
-#ifndef LAB01_STUDENT_HPP
-#define LAB01_STUDENT_HPP
+#ifndef INCLUDE_STUDENT_HPP_
+#define INCLUDE_STUDENT_HPP_
 
 #include <vector>
 #include "serializer.hpp"
@@ -69,4 +69,4 @@ class Student {
   uint32_t _studentSize[4];
   std::string _out;
 };
-#endif // LAB01_STUDENT_HPP
+#endif // INCLUDE_STUDENT_HPP_
