@@ -43,6 +43,5 @@ struct adl_serializer<std::any> {
     }
   }
 };
-}
-
+} // namespace nlohmann
 #endif  // INCLUDE_SERIALIZER_HPP_
