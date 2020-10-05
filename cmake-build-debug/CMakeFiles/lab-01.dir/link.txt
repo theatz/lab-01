@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblab-01d.a  CMakeFiles/lab-01.dir/sources/Student.cpp.o
+/usr/bin/ranlib liblab-01d.a

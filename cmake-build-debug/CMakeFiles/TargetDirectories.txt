@@ -1,0 +1,5 @@
+/home/theatz/Documents/labs cpp/lab-01-final/lab-01-parser/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/theatz/Documents/labs cpp/lab-01-final/lab-01-parser/cmake-build-debug/CMakeFiles/lab-01.dir
+/home/theatz/Documents/labs cpp/lab-01-final/lab-01-parser/cmake-build-debug/CMakeFiles/test.dir
+/home/theatz/Documents/labs cpp/lab-01-final/lab-01-parser/cmake-build-debug/CMakeFiles/tests.dir
+/home/theatz/Documents/labs cpp/lab-01-final/lab-01-parser/cmake-build-debug/CMakeFiles/edit_cache.dir
