@@ -1,3 +1,4 @@
+// Copyright 2020 theatz
 #include "Student.hpp"
 
 void Student::printHor(){
@@ -21,7 +22,6 @@ void Student::printHor(){
        i++) _out += sepH;
   _out += sepV + '\n';
 }
-
 
 Student::Student() {
   _studentSize[0] = 4;
@@ -106,12 +106,13 @@ uint32_t Student::getAvgLength(const StudentInfo& st){
 }
 
 uint32_t Student::getDebtLength(const StudentInfo& st){
-  if(st.debt.size() == 1 && st.debt[0].type() == typeid(std::nullptr_t))
+  if (st.debt.size() == 1 && st.debt[0].type() == typeid(std::nullptr_t))
     return 4;
   else if (st.debt.size() == 1 && st.debt[0].type() == typeid(std::string))
     return std::any_cast<std::string>(st.debt[0]).length();
   else if (st.debt.size() == 0) return 0;
-  else return std::to_string(st.debt.size()).length() + 6;
+  else
+    return std::to_string(st.debt.size()).length() + 6;
 }
 void Student::printName(const StudentInfo& st){
   std::string sepV = "|";
@@ -225,7 +226,6 @@ void Student::parse_string(const std::string& str) {
   for (json::const_iterator it = j.at("items").cbegin();\
                             it != j.at("items").cend();\
                           ++it){
-
     from_json(it.value(), st);
     pushStudent(st);
     pushSize(st);
@@ -279,7 +279,6 @@ void Student::printTable() {
     printAvg(_students[i]);
     printDebt(_students[i]);
     printHor();
-
   }
   std::cout << _out;
 }

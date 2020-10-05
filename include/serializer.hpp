@@ -1,3 +1,4 @@
+// Copyright 2020 theatz
 #ifndef LAB01_SERIALIZER_HPP
 #define LAB01_SERIALIZER_HPP
 

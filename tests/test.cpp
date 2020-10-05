@@ -1,3 +1,4 @@
+// Copyright 2020 theatz
 #include <gtest/gtest.h>
 #include "Student.hpp"
 
