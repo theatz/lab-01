@@ -69,5 +69,4 @@ class Student {
   uint32_t _studentSize[4];
   std::string _out;
 };
-
 #endif // LAB01_STUDENT_HPP
