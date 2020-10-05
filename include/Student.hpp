@@ -69,4 +69,4 @@ class Student {
   uint32_t _studentSize[4];
   std::string _out;
 };
-#endif // INCLUDE_STUDENT_HPP_
+#endif  // INCLUDE_STUDENT_HPP_
