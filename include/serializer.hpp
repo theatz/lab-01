@@ -1,5 +1,5 @@
-#ifndef TEMPLATE_SERIALIZER_HPP
-#define TEMPLATE_SERIALIZER_HPP
+#ifndef LAB01_SERIALIZER_HPP
+#define LAB01_SERIALIZER_HPP
 
 
 #include <nlohmann/json.hpp>
@@ -44,6 +44,5 @@ struct adl_serializer<std::any> {
   }
 };
 }
-
 
 #endif  // TEMPLATE_SERIALIZER_HPP
