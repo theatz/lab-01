@@ -12,7 +12,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/theatz/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_fatal_error.cmake"
   "/home/theatz/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/cmake/modules/hunter_internal_error.cmake"
   "/home/theatz/.hunter/_Base/Download/Hunter/0.23.218/9a3594a/Unpacked/scripts/ShowPredefined.cpp"
-  "/home/theatz/Documents/labs cpp/lab-01-final/lab-01-parser/GCC-9FIX.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.17.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
