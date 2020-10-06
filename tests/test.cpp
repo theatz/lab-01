@@ -50,7 +50,7 @@ R"(| name          | group  | avg  | debt    |
   EXPECT_EQ(expected, ref_string);
 }
 
-TEST(Parse, FromFile){
+TEST(Parse, FromFileInvalid){
   try {
     Student st;
     std::string path = "table.json";

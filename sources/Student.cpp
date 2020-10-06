@@ -176,7 +176,7 @@ void Student::printAvg(const StudentInfo& st) {
     _out += avg;
     uint32_t sp = _studentSize[2] - avg.length() + 1;
     for (uint32_t i = 0; i < sp; i++) _out += " ";
-  }Redundant
+  }
 }
 
 void Student::printDebt(const StudentInfo& st) {
@@ -234,7 +234,9 @@ void Student::parse_string(const std::string& str) {
 
 void Student::parse_file(const std::string& path) {
   std::ifstream input_file;
-  input_file.open(path, std::ios::in);
+  std::filesystem::path cwd = std::filesystem::current_path() / path;
+  //std::ofstream file(cwd.string());
+  input_file.open(cwd.string() + path);
   if (!input_file.is_open())
     throw std::runtime_error("File error");
   std::string string;
